@@ -1,0 +1,260 @@
+.content_wrapper {
+  overflow: hidden;
+}
+.breadcrumbs_container {
+  display: none;
+}
+.pandora-signup-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  max-width: 1280px;
+  text-align: center;
+  margin: 0 auto;
+  .pandora-tablet-down {
+    display: block;
+  }
+  .pandora-desktop {
+    display: none;
+  }
+  .pandora-background {
+    width: 110%;
+    background-image: url('../features/pandora/mobile-bg.jpg?$staticLink$');
+    background-size: cover;
+    margin-left: -5%;
+    padding-bottom: 20%;
+  }
+  .pandora-title {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    h3 {
+      color: white;
+      font-family: "DomaineDisplaySemiBold", sans-serif;
+      font-size: 30px;
+      line-height: 1.1em;
+      letter-spacing: .07em;
+      margin: 0;
+      text-transform: uppercase;
+      padding: 5% 0 0;
+    }
+    h4 {
+      &.brackets-cta {
+        margin: 0 auto;
+        font-weight: bold;
+        font-size: 27px;
+        text-align: center;
+        color: white;
+        transition: .5s;
+        text-transform: uppercase;
+        -webkit-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+        &:before {
+          content: '\e908';
+          font-family: "wh-icons";
+          font-size: 50px;
+          position: relative;
+          top: 12px;
+          left: 17px;
+          color: #FDEC00;
+          font-weight: normal;
+        }
+        &:after {
+          content: '\e909';
+          font-family: "wh-icons";
+          font-size: 50px;
+          position: relative;
+          top: 12px;
+          right: 6px;
+          color: #FDEC00;
+          font-weight: normal;
+        }
+      }
+    }
+  }
+  .pandora-hero {
+    width: 90%;
+    margin: -6% auto;
+    img {
+      width: 100%;
+    }
+  }
+  .pandora-info {
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    .heading {
+      text-transform: uppercase;
+      font-size: 25px;
+      font-weight: bold;
+      color: white;
+      margin: 0;
+      &:first-child {
+        margin: 10% 0 0;
+      }
+    }
+    .signup {
+      color: white;
+      font-family: "DomaineDisplaySemiBold", sans-serif;
+      font-size: 18px;
+      &.pandora-tablet-down {
+        margin-top: 20%;
+      }
+    }
+    .terms {
+      color: white;
+      font-family: 'HelveticaNeue',sans-serif;
+      font-size: 12px;
+      a {
+        color: #FDEC00;
+      }
+    }
+  }
+  form {
+    position: relative;
+    input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+      background-color: transparent !important;
+    }
+    input[type="text"] {
+      width: 90%;
+      background-color: transparent;
+      border: none;
+      border-bottom: 3px solid #FDEC00;
+      color: white;
+      font-weight: bold;
+      text-transform: uppercase;
+      padding: 0;
+      font-size: 16px;
+      height: 35px;
+      margin: 5% 0 0;
+      &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+        color: white;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+      &::-moz-placeholder { /* Firefox 19+ */
+        color: white;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+      &:-ms-input-placeholder { /* IE 10+ */
+        color: white;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+      &:-moz-placeholder { /* Firefox 18- */
+        color: white;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+    }
+    input[type="submit"] {
+      text-indent: -999999px;
+      background: url('../features/pandora/send-icon.png?$staticLink$') no-repeat transparent;
+      -webkit-appearance: none !important;
+      border: 0;
+      position: absolute;
+      bottom: 3px;
+      right: 6%;
+      width: 20px;
+    }
+  }
+  .pandora-signup-form-message {
+    color: #FDEC00;
+    font-size: 14px;
+    text-align: left;
+    width: 90%;
+    margin: 9px auto 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    h3 {
+      font-size: 12px;
+      font-family: 'HelveticaNeue',sans-serif;
+      margin: 0;
+      font-weight: normal;
+    }
+  }
+}
+
+@media screen and (min-width: 668px) {
+  .pandora-signup-container {
+    .pandora-hero {
+      margin: -3% auto;
+    }
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .content_wrapper {
+    overflow: visible;
+  }
+  .pandora-signup-container {
+    .pandora-tablet-down {
+      display: none;
+    }
+    .pandora-desktop {
+      display: block;
+    }
+    .pandora-background {
+      background-image: url('../features/pandora/desktop-bg.jpg?$staticLink$');
+      padding-bottom: 0;
+      position: relative;
+      .pandora-title {
+        position: absolute;
+        width: 45%;
+        left: 5%;
+        top: 0;
+        h3 {
+          font-size: 50px;
+        }
+        h4 {
+          font-size: 30px;
+        }
+      }
+      .pandora-hero {
+        height: 100%;
+        display: inline-block;
+        margin: 3%;
+        width: inherit;
+        margin-left: 55%;
+        img {
+          width: auto;
+          height: 100%;
+        }
+      }
+      .pandora-info {
+        width: 45%;
+        display: inline-block;
+        position: absolute;
+        left: 5%;
+        bottom: 9%;
+        .heading {
+          margin: 0 0 5%;
+          &:first-child {
+            margin: 0;
+          }
+        }
+        .signup {
+          &:last-child {
+            margin: 0 0 5%;
+          }
+        }
+      }
+      form {
+        input[type="text"] {
+          width: 60%;
+        }
+        input[type="submit"] {
+          right: 21%;
+        }
+      }
+      .pandora-signup-form-message {
+        width: 60%;
+      }
+      .terms {
+        margin: 11% 0 0;
+      }
+    }
+  }
+}

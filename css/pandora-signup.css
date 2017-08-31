@@ -1,0 +1,208 @@
+.content_wrapper {
+  overflow: hidden; }
+
+.breadcrumbs_container {
+  display: none; }
+
+.pandora-signup-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  max-width: 1280px;
+  text-align: center;
+  margin: 0 auto; }
+  .pandora-signup-container .pandora-tablet-down {
+    display: block; }
+  .pandora-signup-container .pandora-desktop {
+    display: none; }
+  .pandora-signup-container .pandora-background {
+    width: 110%;
+    background-image: url("../features/pandora/mobile-bg.jpg?$staticLink$");
+    background-size: cover;
+    margin-left: -5%;
+    padding-bottom: 20%; }
+  .pandora-signup-container .pandora-title {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto; }
+    .pandora-signup-container .pandora-title h3 {
+      color: white;
+      font-family: "DomaineDisplaySemiBold", sans-serif;
+      font-size: 30px;
+      line-height: 1.1em;
+      letter-spacing: .07em;
+      margin: 0;
+      text-transform: uppercase;
+      padding: 5% 0 0; }
+    .pandora-signup-container .pandora-title h4.brackets-cta {
+      margin: 0 auto;
+      font-weight: bold;
+      font-size: 27px;
+      text-align: center;
+      color: white;
+      transition: .5s;
+      text-transform: uppercase;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0); }
+      .pandora-signup-container .pandora-title h4.brackets-cta:before {
+        content: '\e908';
+        font-family: "wh-icons";
+        font-size: 50px;
+        position: relative;
+        top: 12px;
+        left: 17px;
+        color: #FDEC00;
+        font-weight: normal; }
+      .pandora-signup-container .pandora-title h4.brackets-cta:after {
+        content: '\e909';
+        font-family: "wh-icons";
+        font-size: 50px;
+        position: relative;
+        top: 12px;
+        right: 6px;
+        color: #FDEC00;
+        font-weight: normal; }
+  .pandora-signup-container .pandora-hero {
+    width: 90%;
+    margin: -6% auto; }
+    .pandora-signup-container .pandora-hero img {
+      width: 100%; }
+  .pandora-signup-container .pandora-info {
+    width: 90%;
+    text-align: center;
+    margin: 0 auto; }
+    .pandora-signup-container .pandora-info .heading {
+      text-transform: uppercase;
+      font-size: 25px;
+      font-weight: bold;
+      color: white;
+      margin: 0; }
+      .pandora-signup-container .pandora-info .heading:first-child {
+        margin: 10% 0 0; }
+    .pandora-signup-container .pandora-info .signup {
+      color: white;
+      font-family: "DomaineDisplaySemiBold", sans-serif;
+      font-size: 18px; }
+      .pandora-signup-container .pandora-info .signup.pandora-tablet-down {
+        margin-top: 20%; }
+    .pandora-signup-container .pandora-info .terms {
+      color: white;
+      font-family: 'HelveticaNeue',sans-serif;
+      font-size: 12px; }
+      .pandora-signup-container .pandora-info .terms a {
+        color: #FDEC00; }
+  .pandora-signup-container form {
+    position: relative; }
+    .pandora-signup-container form input:-webkit-autofill, .pandora-signup-container form textarea:-webkit-autofill, .pandora-signup-container form select:-webkit-autofill {
+      background-color: transparent !important; }
+    .pandora-signup-container form input[type="text"] {
+      width: 90%;
+      background-color: transparent;
+      border: none;
+      border-bottom: 3px solid #FDEC00;
+      color: white;
+      font-weight: bold;
+      text-transform: uppercase;
+      padding: 0;
+      font-size: 16px;
+      height: 35px;
+      margin: 5% 0 0; }
+      .pandora-signup-container form input[type="text"]::-webkit-input-placeholder {
+        /* Chrome/Opera/Safari */
+        color: white;
+        font-weight: bold;
+        text-transform: uppercase; }
+      .pandora-signup-container form input[type="text"]::-moz-placeholder {
+        /* Firefox 19+ */
+        color: white;
+        font-weight: bold;
+        text-transform: uppercase; }
+      .pandora-signup-container form input[type="text"]:-ms-input-placeholder {
+        /* IE 10+ */
+        color: white;
+        font-weight: bold;
+        text-transform: uppercase; }
+      .pandora-signup-container form input[type="text"]:-moz-placeholder {
+        /* Firefox 18- */
+        color: white;
+        font-weight: bold;
+        text-transform: uppercase; }
+    .pandora-signup-container form input[type="submit"] {
+      text-indent: -999999px;
+      background: url("../features/pandora/send-icon.png?$staticLink$") no-repeat transparent;
+      -webkit-appearance: none !important;
+      border: 0;
+      position: absolute;
+      bottom: 3px;
+      right: 6%;
+      width: 20px; }
+  .pandora-signup-container .pandora-signup-form-message {
+    color: #FDEC00;
+    font-size: 14px;
+    text-align: left;
+    width: 90%;
+    margin: 9px auto 0;
+    position: absolute;
+    left: 0;
+    right: 0; }
+    .pandora-signup-container .pandora-signup-form-message h3 {
+      font-size: 12px;
+      font-family: 'HelveticaNeue',sans-serif;
+      margin: 0;
+      font-weight: normal; }
+
+@media screen and (min-width: 668px) {
+  .pandora-signup-container .pandora-hero {
+    margin: -3% auto; } }
+@media screen and (min-width: 769px) {
+  .content_wrapper {
+    overflow: visible; }
+
+  .pandora-signup-container .pandora-tablet-down {
+    display: none; }
+  .pandora-signup-container .pandora-desktop {
+    display: block; }
+  .pandora-signup-container .pandora-background {
+    background-image: url("../features/pandora/desktop-bg.jpg?$staticLink$");
+    padding-bottom: 0;
+    position: relative; }
+    .pandora-signup-container .pandora-background .pandora-title {
+      position: absolute;
+      width: 45%;
+      left: 5%;
+      top: 0; }
+      .pandora-signup-container .pandora-background .pandora-title h3 {
+        font-size: 50px; }
+      .pandora-signup-container .pandora-background .pandora-title h4 {
+        font-size: 30px; }
+    .pandora-signup-container .pandora-background .pandora-hero {
+      height: 100%;
+      display: inline-block;
+      margin: 3%;
+      width: inherit;
+      margin-left: 55%; }
+      .pandora-signup-container .pandora-background .pandora-hero img {
+        width: auto;
+        height: 100%; }
+    .pandora-signup-container .pandora-background .pandora-info {
+      width: 45%;
+      display: inline-block;
+      position: absolute;
+      left: 5%;
+      bottom: 9%; }
+      .pandora-signup-container .pandora-background .pandora-info .heading {
+        margin: 0 0 5%; }
+        .pandora-signup-container .pandora-background .pandora-info .heading:first-child {
+          margin: 0; }
+      .pandora-signup-container .pandora-background .pandora-info .signup:last-child {
+        margin: 0 0 5%; }
+    .pandora-signup-container .pandora-background form input[type="text"] {
+      width: 60%; }
+    .pandora-signup-container .pandora-background form input[type="submit"] {
+      right: 21%; }
+    .pandora-signup-container .pandora-background .pandora-signup-form-message {
+      width: 60%; }
+    .pandora-signup-container .pandora-background .terms {
+      margin: 11% 0 0; } }
+
+/*# sourceMappingURL=pandora-signup.css.map */

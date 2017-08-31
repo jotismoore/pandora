@@ -1,0 +1,903 @@
+.content_wrapper {
+  overflow: hidden; }
+
+.ui-dialog .ui-dialog-content {
+  padding: 20px 69px 69px 69px; }
+
+.pandora-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  max-width: 1280px; }
+  .pandora-container .pandora-mobile {
+    display: block; }
+  .pandora-container .pandora-tablet-down {
+    display: block; }
+  .pandora-container .pandora-tablet {
+    display: none; }
+  .pandora-container .pandora-tablet-up {
+    display: none; }
+  .pandora-container .pandora-desktop {
+    display: none; }
+  .pandora-container .brackets-cta {
+    color: white; }
+    .pandora-container .brackets-cta:before {
+      color: #FDEC00;
+      font-weight: normal; }
+    .pandora-container .brackets-cta:after {
+      color: #FDEC00;
+      font-weight: normal; }
+  .pandora-container .pandora-arrow-down {
+    color: #FDEC00;
+    font-size: 40px;
+    font-weight: bold; }
+  .pandora-container section:nth-child(1) .pandora-info {
+    background-color: #FDEC00;
+    padding-top: 70%;
+    text-align: center;
+    padding-bottom: 15%;
+    width: 100%;
+    margin: 0; }
+    .pandora-container section:nth-child(1) .pandora-info p {
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: bold;
+      color: black;
+      width: 70%;
+      margin: 10px auto; }
+    .pandora-container section:nth-child(1) .pandora-info a.brackets-cta {
+      position: absolute;
+      left: 0;
+      right: 0;
+      z-index: 5;
+      color: black; }
+      .pandora-container section:nth-child(1) .pandora-info a.brackets-cta:before, .pandora-container section:nth-child(1) .pandora-info a.brackets-cta:after {
+        color: black; }
+  .pandora-container section:nth-child(1) .pandora-arrow-down {
+    display: none; }
+  .pandora-container section {
+    width: 100%;
+    position: relative;
+    height: 100%; }
+    .pandora-container section.inverted .pandora-info {
+      margin-right: 13%;
+      margin-left: 0; }
+    .pandora-container section.inverted .pandora-parallax.pandora-parallax-1 {
+      right: -5%;
+      left: inherit; }
+    .pandora-container section.inverted .pandora-parallax.pandora-parallax-2 {
+      right: 3%;
+      left: inherit; }
+    .pandora-container section.inverted .pandora-parallax.pandora-parallax-3 {
+      left: -5%;
+      right: inherit; }
+    .pandora-container section .pandora-background-top {
+      width: 110%;
+      margin-left: -5%;
+      position: relative;
+      margin-top: 0; }
+      .pandora-container section .pandora-background-top img {
+        width: 100%; }
+      .pandora-container section .pandora-background-top .pandora-cta {
+        position: absolute;
+        text-align: center;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        bottom: 5%; }
+        .pandora-container section .pandora-background-top .pandora-cta a.brackets-cta {
+          padding-bottom: 3%; }
+      .pandora-container section .pandora-background-top .pandora-anchor-overlay {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        display: block;
+        z-index: 10; }
+    .pandora-container section .pandora-info {
+      background-color: #FDEC00;
+      padding-top: 50%;
+      text-align: center;
+      padding-bottom: 100%;
+      width: 84%;
+      margin-left: 13%;
+      margin-bottom: 30%;
+      margin-top: 0; }
+    .pandora-container section .pandora-parallax {
+      width: 80%;
+      position: absolute; }
+      .pandora-container section .pandora-parallax img {
+        width: 100%; }
+      .pandora-container section .pandora-parallax a.brackets-cta {
+        position: absolute;
+        bottom: 5%;
+        margin: 0 auto;
+        left: 0;
+        right: 0; }
+      .pandora-container section .pandora-parallax.pandora-parallax-1 {
+        top: 51%;
+        left: -5%;
+        z-index: 4;
+        right: inherit; }
+        .pandora-container section .pandora-parallax.pandora-parallax-1 .pandora-anchor-overlay {
+          position: absolute;
+          height: 100%;
+          width: 100%;
+          display: block;
+          z-index: 10; }
+        .pandora-container section .pandora-parallax.pandora-parallax-1 .coming-soon-container h3 {
+          margin: 0 auto;
+          position: absolute;
+          top: 2%;
+          text-align: center;
+          left: 0;
+          right: 0;
+          text-transform: uppercase;
+          color: white;
+          font-size: 25px; }
+      .pandora-container section .pandora-parallax.pandora-parallax-2 {
+        top: 55%;
+        height: 33%;
+        overflow: hidden;
+        left: 3%;
+        z-index: 2; }
+        .pandora-container section .pandora-parallax.pandora-parallax-2 img {
+          height: 70%; }
+      .pandora-container section .pandora-parallax.pandora-parallax-3 {
+        background-color: #ccc;
+        top: 77%;
+        z-index: 3;
+        right: -5%; }
+        .pandora-container section .pandora-parallax.pandora-parallax-3 div {
+          margin-top: 100%; }
+          .pandora-container section .pandora-parallax.pandora-parallax-3 div video {
+            top: 50%;
+            transform: translate(0, -50%);
+            position: absolute;
+            width: 100%;
+            height: 100%; }
+            .pandora-container section .pandora-parallax.pandora-parallax-3 div video::-webkit-media-controls-start-playback-button {
+              display: none !important; }
+          .pandora-container section .pandora-parallax.pandora-parallax-3 div video::-webkit-media-controls-start-playback-button {
+            display: none !important; }
+          .pandora-container section .pandora-parallax.pandora-parallax-3 div .playpause {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: 10;
+            background: url("../features/pandora/play-button.png?$staticlink$") no-repeat;
+            background-position: center center;
+            top: 0;
+            left: 0;
+            margin-top: 0; }
+    .pandora-container section .pandora-hero-image {
+      width: 94%;
+      position: absolute;
+      top: 21.5%;
+      left: 0;
+      right: 0;
+      margin: 0 auto; }
+      .pandora-container section .pandora-hero-image img {
+        width: 100%; }
+    .pandora-container section .pandora-title {
+      width: 100%;
+      height: 80%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      text-align: center; }
+      .pandora-container section .pandora-title h3 {
+        color: white;
+        font-family: "DomaineDisplaySemiBold", sans-serif;
+        font-size: 50px;
+        line-height: 1.1em;
+        letter-spacing: .07em;
+        margin: 10px;
+        text-transform: uppercase;
+        white-space: nowrap; }
+        .pandora-container section .pandora-title h3 span {
+          opacity: 0;
+          -webkit-animation: fadein 2s forwards;
+          /* Safari, Chrome and Opera > 12.1 */
+          -moz-animation: fadein 2s forwards;
+          /* Firefox < 16 */
+          -ms-animation: fadein 2s forwards;
+          /* Internet Explorer */
+          -o-animation: fadein 2s forwards;
+          /* Opera < 12.1 */
+          animation: fadein 2s forwards; }
+        .pandora-container section .pandora-title h3:nth-child(1) span:nth-child(1) {
+          animation-delay: 500ms;
+          -webkit-animation-delay: 500ms; }
+        .pandora-container section .pandora-title h3:nth-child(1) span:nth-child(2) {
+          animation-delay: 600ms;
+          -webkit-animation-delay: 600ms; }
+        .pandora-container section .pandora-title h3:nth-child(1) span:nth-child(3) {
+          animation-delay: 700ms;
+          -webkit-animation-delay: 700ms; }
+        .pandora-container section .pandora-title h3:nth-child(1) span:nth-child(4) {
+          animation-delay: 800ms;
+          -webkit-animation-delay: 800ms; }
+        .pandora-container section .pandora-title h3:nth-child(1) span:nth-child(5) {
+          animation-delay: 900ms;
+          -webkit-animation-delay: 900ms; }
+        .pandora-container section .pandora-title h3:nth-child(1) span:nth-child(6) {
+          animation-delay: 1000ms;
+          -webkit-animation-delay: 1000ms; }
+        .pandora-container section .pandora-title h3:nth-child(1) span:nth-child(7) {
+          animation-delay: 1100ms;
+          -webkit-animation-delay: 1100ms; }
+        .pandora-container section .pandora-title h3:nth-child(2) span:nth-child(1) {
+          animation-delay: 500ms;
+          -webkit-animation-delay: 500ms; }
+        .pandora-container section .pandora-title h3:nth-child(2) span:nth-child(2) {
+          animation-delay: 600ms;
+          -webkit-animation-delay: 600ms; }
+        .pandora-container section .pandora-title h3:nth-child(2) span:nth-child(3) {
+          animation-delay: 700ms;
+          -webkit-animation-delay: 700ms; }
+        .pandora-container section .pandora-title h3:nth-child(2) span:nth-child(4) {
+          animation-delay: 800ms;
+          -webkit-animation-delay: 800ms; }
+        .pandora-container section .pandora-title h3:nth-child(2) span:nth-child(5) {
+          animation-delay: 900ms;
+          -webkit-animation-delay: 900ms; }
+        .pandora-container section .pandora-title h3:nth-child(2) span:nth-child(6) {
+          animation-delay: 1000ms;
+          -webkit-animation-delay: 1000ms; }
+        .pandora-container section .pandora-title h3:nth-child(2) span:nth-child(7) {
+          animation-delay: 1100ms;
+          -webkit-animation-delay: 1100ms; }
+      .pandora-container section .pandora-title h4 {
+        color: white;
+        text-transform: uppercase;
+        font-size: 30px;
+        margin: 0; }
+      .pandora-container section .pandora-title .pandora-body-text-container {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 10%; }
+        .pandora-container section .pandora-title .pandora-body-text-container a.brackets-cta {
+          padding-bottom: 10%; }
+        .pandora-container section .pandora-title .pandora-body-text-container p.scroll-text {
+          color: white;
+          font-family: "DomaineDisplaySemiBold", sans-serif;
+          margin: -3%;
+          font-size: 14px; }
+    .pandora-container section .pandora-quote {
+      font-family: "DomaineDisplaySemiBold", sans-serif;
+      color: black;
+      width: 90%;
+      margin: 25px auto;
+      text-align: center;
+      font-size: 20px;
+      line-height: 28px; }
+      .pandora-container section .pandora-quote span {
+        display: inline-block;
+        width: 25px;
+        height: 22px;
+        position: relative; }
+        .pandora-container section .pandora-quote span.quote-start:before {
+          content: "";
+          position: absolute;
+          width: 22px;
+          height: 22px;
+          top: 0;
+          left: 0;
+          background: url("../features/pandora/test_quote_1v2.png?$staticlink$") no-repeat;
+          background-size: contain;
+          background-position: top center; }
+        .pandora-container section .pandora-quote span.quote-end:before {
+          content: "";
+          position: absolute;
+          width: 22px;
+          height: 22px;
+          top: 0;
+          left: 0;
+          background: url("../features/pandora/test_quote_2v2.png?$staticlink$") no-repeat;
+          background-size: contain;
+          background-position: top center; }
+    .pandora-container section .pandora-copy {
+      text-align: center;
+      width: 90%;
+      margin: 30px auto; }
+    .pandora-container section.pandora-hidden-edit {
+      display: none;
+      height: 700px; }
+      .pandora-container section.pandora-hidden-edit .flexslider {
+        width: 100%;
+        height: 85%;
+        opacity: 0; }
+        .pandora-container section.pandora-hidden-edit .flexslider .slides li {
+          text-align: center; }
+          .pandora-container section.pandora-hidden-edit .flexslider .slides li a .name {
+            text-align: center;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: black;
+            margin: 0; }
+          .pandora-container section.pandora-hidden-edit .flexslider .slides li a .price {
+            text-align: center;
+            margin-top: 0;
+            color: black; }
+        .pandora-container section.pandora-hidden-edit .flexslider .flex-direction-nav .flex-nav-prev {
+          list-style: none; }
+          .pandora-container section.pandora-hidden-edit .flexslider .flex-direction-nav .flex-nav-prev a {
+            top: 50%;
+            left: 5%;
+            overflow: visible; }
+            .pandora-container section.pandora-hidden-edit .flexslider .flex-direction-nav .flex-nav-prev a:before {
+              font-size: 40px;
+              color: #FDEC00; }
+        .pandora-container section.pandora-hidden-edit .flexslider .flex-direction-nav .flex-nav-next {
+          list-style: none; }
+          .pandora-container section.pandora-hidden-edit .flexslider .flex-direction-nav .flex-nav-next a {
+            top: 50%;
+            right: 5%;
+            overflow: visible; }
+            .pandora-container section.pandora-hidden-edit .flexslider .flex-direction-nav .flex-nav-next a:before {
+              font-size: 40px;
+              color: #FDEC00; }
+        .pandora-container section.pandora-hidden-edit .flexslider .flex-control-paging.flex-control-nav {
+          display: block;
+          bottom: -10px;
+          right: 0;
+          left: 0; }
+          .pandora-container section.pandora-hidden-edit .flexslider .flex-control-paging.flex-control-nav li a {
+            height: 10px;
+            width: 10px;
+            border: none;
+            border-radius: 20px; }
+            .pandora-container section.pandora-hidden-edit .flexslider .flex-control-paging.flex-control-nav li a.flex-active {
+              background-color: #FDEC00; }
+    .pandora-container section.pandora-9 {
+      width: 110%;
+      margin-left: -5%; }
+      .pandora-container section.pandora-9 video {
+        width: 100%; }
+      .pandora-container section.pandora-9 a.brackets-cta {
+        color: black;
+        margin: 30px auto;
+        width: 100%; }
+    .pandora-container section .pandora-back-to-top {
+      width: 100%;
+      background-color: #FDEC00;
+      position: relative;
+      height: 40px;
+      margin: 50px 0;
+      text-align: center;
+      cursor: pointer; }
+      .pandora-container section .pandora-back-to-top p {
+        text-transform: uppercase;
+        font-weight: bold;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: -12px;
+        margin: 0 auto; }
+      .pandora-container section .pandora-back-to-top span {
+        position: absolute;
+        bottom: -15px;
+        font-size: 35px;
+        left: 0;
+        right: 0; }
+
+@media screen and (min-width: 668px) {
+  .pandora-container .pandora-mobile {
+    display: none; }
+  .pandora-container .pandora-tablet-down {
+    display: block; }
+  .pandora-container .pandora-tablet {
+    display: block; }
+  .pandora-container .pandora-tablet-up {
+    display: block; }
+  .pandora-container .pandora-desktop {
+    display: none; }
+  .pandora-container .brackets-cta {
+    font-size: 20px; }
+    .pandora-container .brackets-cta:before {
+      font-size: 34px;
+      top: 8px;
+      left: 8px; }
+    .pandora-container .brackets-cta:after {
+      font-size: 34px;
+      top: 8px;
+      right: 6px; }
+  .pandora-container section:nth-child(1) .pandora-background-top {
+    width: 110%;
+    margin-left: -5%;
+    position: relative;
+    margin-top: 0;
+    z-index: 0; }
+  .pandora-container section:nth-child(1) .pandora-hero-image {
+    top: 12%; }
+  .pandora-container section:nth-child(1) .pandora-info {
+    padding-top: 43%;
+    padding-bottom: 10%; }
+    .pandora-container section:nth-child(1) .pandora-info p {
+      font-family: "DomaineDisplaySemiBold", sans-serif;
+      text-transform: none;
+      font-size: 20px;
+      margin: 20px auto; }
+  .pandora-container section .pandora-title {
+    width: 90%; }
+    .pandora-container section .pandora-title h3 {
+      font-size: 60px;
+      margin: 25px 0 0; }
+      .pandora-container section .pandora-title h3 span:nth-child(1) {
+        animation-delay: 500ms;
+        -webkit-animation-delay: 500ms; }
+      .pandora-container section .pandora-title h3 span:nth-child(2) {
+        animation-delay: 600ms;
+        -webkit-animation-delay: 600ms; }
+      .pandora-container section .pandora-title h3 span:nth-child(3) {
+        animation-delay: 700ms;
+        -webkit-animation-delay: 700ms; }
+      .pandora-container section .pandora-title h3 span:nth-child(4) {
+        animation-delay: 800ms;
+        -webkit-animation-delay: 800ms; }
+      .pandora-container section .pandora-title h3 span:nth-child(5) {
+        animation-delay: 900ms;
+        -webkit-animation-delay: 900ms; }
+      .pandora-container section .pandora-title h3 span:nth-child(6) {
+        animation-delay: 1000ms;
+        -webkit-animation-delay: 1000ms; }
+      .pandora-container section .pandora-title h3 span:nth-child(7) {
+        animation-delay: 1100ms;
+        -webkit-animation-delay: 1100ms; }
+      .pandora-container section .pandora-title h3 span:nth-child(8) {
+        animation-delay: 1200ms;
+        -webkit-animation-delay: 1200ms; }
+      .pandora-container section .pandora-title h3 span:nth-child(9) {
+        animation-delay: 1300ms;
+        -webkit-animation-delay: 1300ms; }
+      .pandora-container section .pandora-title h3 span:nth-child(10) {
+        animation-delay: 1400ms;
+        -webkit-animation-delay: 1400ms; }
+      .pandora-container section .pandora-title h3 span:nth-child(11) {
+        animation-delay: 1500ms;
+        -webkit-animation-delay: 1500ms; }
+      .pandora-container section .pandora-title h3 span:nth-child(12) {
+        animation-delay: 1600ms;
+        -webkit-animation-delay: 1600ms; }
+      .pandora-container section .pandora-title h3 span:nth-child(13) {
+        animation-delay: 1700ms;
+        -webkit-animation-delay: 1700ms; }
+      .pandora-container section .pandora-title h3 span:nth-child(14) {
+        animation-delay: 1800ms;
+        -webkit-animation-delay: 1800ms; }
+      .pandora-container section .pandora-title h3 span:nth-child(15) {
+        animation-delay: 1900ms;
+        -webkit-animation-delay: 1900ms; }
+    .pandora-container section .pandora-title h4.brackets-cta {
+      margin: 0 auto;
+      font-weight: bold;
+      font-size: 37px;
+      text-align: center;
+      color: white;
+      transition: .5s;
+      text-transform: uppercase;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0); }
+      .pandora-container section .pandora-title h4.brackets-cta:before {
+        content: '\e908';
+        font-family: "wh-icons";
+        font-size: 60px;
+        font-weight: normal;
+        position: relative;
+        top: 12px;
+        left: 17px; }
+      .pandora-container section .pandora-title h4.brackets-cta:after {
+        content: '\e909';
+        font-family: "wh-icons";
+        font-size: 60px;
+        font-weight: normal;
+        position: relative;
+        top: 12px;
+        right: 6px; }
+    .pandora-container section .pandora-title .pandora-body-text-container .feature-info {
+      color: white;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 25px;
+      width: 70%;
+      margin: 0 auto; }
+    .pandora-container section .pandora-title .pandora-body-text-container p.scroll-text {
+      margin: -8px;
+      font-size: 16px; }
+  .pandora-container section .pandora-quote,
+  .pandora-container section .pandora-copy {
+    position: absolute;
+    top: 4%;
+    right: 5%;
+    z-index: 5;
+    width: 35%; }
+  .pandora-container section .pandora-copy {
+    text-align: left; }
+  .pandora-container section .pandora-background-top {
+    width: 67%;
+    margin-left: -5%;
+    position: relative;
+    margin-top: 15%;
+    z-index: 3; }
+  .pandora-container section .pandora-info {
+    margin-top: -40%;
+    padding-top: 0;
+    padding-bottom: 30%;
+    width: 84%;
+    margin-bottom: 50%; }
+  .pandora-container section .pandora-parallax.pandora-parallax-1 {
+    right: -5%;
+    left: inherit;
+    width: 40%;
+    top: 42%; }
+    .pandora-container section .pandora-parallax.pandora-parallax-1 a.brackets-cta {
+      display: none; }
+  .pandora-container section .pandora-parallax.pandora-parallax-2 {
+    top: 48%;
+    height: 31%;
+    left: 3%;
+    z-index: 2; }
+  .pandora-container section .pandora-parallax.pandora-parallax-3 {
+    top: 67%;
+    z-index: 3;
+    right: 33%;
+    width: 40%; }
+  .pandora-container section.inverted .pandora-quote,
+  .pandora-container section.inverted .pandora-copy {
+    width: 30%;
+    right: inherit;
+    left: 4%; }
+  .pandora-container section.inverted .pandora-background-top {
+    margin-left: 38%; }
+  .pandora-container section.inverted .pandora-parallax.pandora-parallax-1 {
+    left: -5%;
+    right: inherit; }
+  .pandora-container section.inverted .pandora-parallax.pandora-parallax-2 {
+    right: 3%;
+    left: inherit; }
+  .pandora-container section.inverted .pandora-parallax.pandora-parallax-3 {
+    left: 33%;
+    right: inherit; }
+  .pandora-container section.pandora-4 .pandora-quote {
+    width: 28%; }
+  .pandora-container section.pandora-9 video {
+    height: 430px; }
+  .pandora-container section.pandora-hidden-edit {
+    height: 550px; }
+    .pandora-container section.pandora-hidden-edit .flexslider {
+      height: 80%; } }
+@media screen and (min-width: 769px) {
+  .content_wrapper {
+    overflow: visible; }
+
+  .pandora-container {
+    margin: 0 auto; }
+    .pandora-container .pandora-mobile {
+      display: none; }
+    .pandora-container .pandora-tablet-down {
+      display: none; }
+    .pandora-container .pandora-tablet {
+      display: none; }
+    .pandora-container .pandora-tablet-up {
+      display: block; }
+    .pandora-container .pandora-desktop {
+      display: block; }
+    .pandora-container section:nth-child(1) {
+      opacity: 1; }
+      .pandora-container section:nth-child(1) .pandora-background-top {
+        opacity: 0;
+        -webkit-animation: fadein 500ms forwards;
+        /* Safari, Chrome and Opera > 12.1 */
+        -moz-animation: fadein 500ms forwards;
+        /* Firefox < 16 */
+        -ms-animation: fadein 500ms forwards;
+        /* Internet Explorer */
+        -o-animation: fadein 500ms forwards;
+        /* Opera < 12.1 */
+        animation: fadein 500ms forwards;
+        -webkit-animation-delay: 500ms;
+        -moz-animation-delay: 500ms;
+        -o-animation-delay: 500ms;
+        animation-delay: 500ms; }
+      .pandora-container section:nth-child(1) .pandora-title h4 {
+        opacity: 0;
+        -webkit-animation: fadein 1s forwards;
+        /* Safari, Chrome and Opera > 12.1 */
+        -moz-animation: fadein 1s forwards;
+        /* Firefox < 16 */
+        -ms-animation: fadein 1s forwards;
+        /* Internet Explorer */
+        -o-animation: fadein 1s forwards;
+        /* Opera < 12.1 */
+        animation: fadein 1s forwards;
+        -webkit-animation-delay: 2900ms;
+        -moz-animation-delay: 2900ms;
+        -o-animation-delay: 2900ms;
+        animation-delay: 2900ms; }
+      .pandora-container section:nth-child(1) .pandora-title .pandora-body-text-container {
+        bottom: 10%;
+        opacity: 0;
+        -webkit-animation: fadein 1s forwards;
+        /* Safari, Chrome and Opera > 12.1 */
+        -moz-animation: fadein 1s forwards;
+        /* Firefox < 16 */
+        -ms-animation: fadein 1s forwards;
+        /* Internet Explorer */
+        -o-animation: fadein 1s forwards;
+        /* Opera < 12.1 */
+        animation: fadein 1s forwards;
+        -webkit-animation-delay: 2900ms;
+        -moz-animation-delay: 2900ms;
+        -o-animation-delay: 2900ms;
+        animation-delay: 2900ms; }
+        .pandora-container section:nth-child(1) .pandora-title .pandora-body-text-container a.brackets-cta {
+          padding-bottom: 2%;
+          padding-top: 2%; }
+      .pandora-container section:nth-child(1) .pandora-info {
+        padding-top: 12%;
+        padding-bottom: 7%;
+        opacity: 0;
+        -webkit-animation: fadein 2s forwards;
+        /* Safari, Chrome and Opera > 12.1 */
+        -moz-animation: fadein 2s forwards;
+        /* Firefox < 16 */
+        -ms-animation: fadein 2s forwards;
+        /* Internet Explorer */
+        -o-animation: fadein 2s forwards;
+        /* Opera < 12.1 */
+        animation: fadein 2s forwards;
+        -webkit-animation-delay: 2900ms;
+        -moz-animation-delay: 2900ms;
+        -o-animation-delay: 2900ms;
+        animation-delay: 2900ms; }
+      .pandora-container section:nth-child(1) .pandora-hero-image {
+        width: 90%;
+        top: 13%;
+        overflow: hidden; }
+        .pandora-container section:nth-child(1) .pandora-hero-image img.pandora-desktop {
+          opacity: 0;
+          transform: translate(0, -100%);
+          -webkit-animation: slideDown 1s forwards;
+          /* Safari, Chrome and Opera > 12.1 */
+          -moz-animation: slideDown 1s forwards;
+          /* Firefox < 16 */
+          -ms-animation: slideDown 1s forwards;
+          /* Internet Explorer */
+          -o-animation: slideDown 1s forwards;
+          /* Opera < 12.1 */
+          animation: slideDown 1s forwards;
+          -webkit-animation-delay: 1900ms;
+          -moz-animation-delay: 1900ms;
+          -o-animation-delay: 1900ms;
+          animation-delay: 1900ms; }
+    .pandora-container section:not(:first-child) {
+      opacity: 0;
+      -webkit-animation: fadein 1s forwards;
+      /* Safari, Chrome and Opera > 12.1 */
+      -moz-animation: fadein 1s forwards;
+      /* Firefox < 16 */
+      -ms-animation: fadein 1s forwards;
+      /* Internet Explorer */
+      -o-animation: fadein 1s forwards;
+      /* Opera < 12.1 */
+      animation: fadein 1s forwards; }
+      .pandora-container section:not(:first-child) .pandora-quote,
+      .pandora-container section:not(:first-child) .pandora-copy {
+        right: 35%; }
+      .pandora-container section:not(:first-child) .pandora-copy {
+        width: 22%;
+        top: 2%; }
+      .pandora-container section:not(:first-child) .pandora-background-top {
+        width: 45%;
+        margin-top: 10%; }
+      .pandora-container section:not(:first-child) .pandora-info {
+        width: 30%;
+        margin-left: 65%;
+        padding-bottom: 33%;
+        margin-top: -30%;
+        margin-bottom: 0; }
+      .pandora-container section:not(:first-child) .pandora-parallax.pandora-parallax-1 {
+        top: 29%;
+        right: 21%;
+        width: 30%; }
+        .pandora-container section:not(:first-child) .pandora-parallax.pandora-parallax-1 a.brackets-cta {
+          display: block; }
+      .pandora-container section:not(:first-child) .pandora-parallax.pandora-parallax-2 {
+        width: 28%;
+        top: 41%;
+        height: 43%;
+        right: 10%;
+        left: inherit; }
+      .pandora-container section:not(:first-child) .pandora-parallax.pandora-parallax-3 {
+        top: 2%;
+        right: -5%;
+        width: 35%; }
+      .pandora-container section:not(:first-child) .pandora-parallax.pandora-parallax-4 {
+        width: 40%;
+        top: 36%;
+        height: 43%;
+        right: -5%;
+        left: inherit; }
+      .pandora-container section:not(:first-child).pandora-2 .pandora-parallax.pandora-parallax-4, .pandora-container section:not(:first-child).pandora-6 .pandora-parallax.pandora-parallax-4 {
+        left: 10%;
+        transform: rotate(270deg);
+        margin: 0 auto;
+        right: 0;
+        width: 30%; }
+      .pandora-container section:not(:first-child).pandora-5 .pandora-parallax.pandora-parallax-4 {
+        width: 30%;
+        top: 43%;
+        height: 43%;
+        right: -5%;
+        left: inherit;
+        transform: rotate(180deg); }
+      .pandora-container section:not(:first-child).pandora-3 .pandora-copy,
+      .pandora-container section:not(:first-child).pandora-3 .pandora-quote, .pandora-container section:not(:first-child).pandora-7 .pandora-copy,
+      .pandora-container section:not(:first-child).pandora-7 .pandora-quote {
+        right: -2.5%;
+        left: inherit;
+        width: 25%;
+        top: 73.5%; }
+      .pandora-container section:not(:first-child).pandora-3 .pandora-background-top, .pandora-container section:not(:first-child).pandora-7 .pandora-background-top {
+        margin-left: auto;
+        margin-right: auto; }
+      .pandora-container section:not(:first-child).pandora-3 .pandora-info, .pandora-container section:not(:first-child).pandora-7 .pandora-info {
+        display: none; }
+      .pandora-container section:not(:first-child).pandora-3 .pandora-parallax.pandora-parallax-1, .pandora-container section:not(:first-child).pandora-7 .pandora-parallax.pandora-parallax-1 {
+        right: -5%;
+        left: inherit;
+        top: 5%; }
+      .pandora-container section:not(:first-child).pandora-3 .pandora-parallax.pandora-parallax-2, .pandora-container section:not(:first-child).pandora-7 .pandora-parallax.pandora-parallax-2 {
+        left: -5%; }
+      .pandora-container section:not(:first-child).pandora-3 .pandora-parallax.pandora-parallax-3, .pandora-container section:not(:first-child).pandora-7 .pandora-parallax.pandora-parallax-3 {
+        left: 2%;
+        width: 30%;
+        top: 20%; }
+      .pandora-container section:not(:first-child).pandora-3 .pandora-parallax.pandora-parallax-4, .pandora-container section:not(:first-child).pandora-7 .pandora-parallax.pandora-parallax-4 {
+        left: -5%;
+        top: 33%;
+        right: inherit;
+        width: 30%; }
+      .pandora-container section:not(:first-child).pandora-4 .pandora-quote, .pandora-container section:not(:first-child).pandora-8 .pandora-quote {
+        width: 20%;
+        left: 25%; }
+      .pandora-container section:not(:first-child).pandora-4 .pandora-copy, .pandora-container section:not(:first-child).pandora-8 .pandora-copy {
+        width: 25%;
+        top: 7%;
+        left: 25%; }
+      .pandora-container section:not(:first-child).pandora-4 .pandora-background-top, .pandora-container section:not(:first-child).pandora-8 .pandora-background-top {
+        margin-left: 60%; }
+      .pandora-container section:not(:first-child).pandora-4 .pandora-info, .pandora-container section:not(:first-child).pandora-8 .pandora-info {
+        margin-left: 6%;
+        margin-top: -34%; }
+      .pandora-container section:not(:first-child).pandora-4 .pandora-parallax.pandora-parallax-1, .pandora-container section:not(:first-child).pandora-8 .pandora-parallax.pandora-parallax-1 {
+        top: 35%;
+        left: 22%;
+        width: 27%; }
+      .pandora-container section:not(:first-child).pandora-4 .pandora-parallax.pandora-parallax-2, .pandora-container section:not(:first-child).pandora-8 .pandora-parallax.pandora-parallax-2 {
+        left: 10%; }
+      .pandora-container section:not(:first-child).pandora-4 .pandora-parallax.pandora-parallax-3, .pandora-container section:not(:first-child).pandora-8 .pandora-parallax.pandora-parallax-3 {
+        left: -5%;
+        width: 35%;
+        top: 5%; }
+      .pandora-container section:not(:first-child).pandora-4 .pandora-parallax.pandora-parallax-4, .pandora-container section:not(:first-child).pandora-8 .pandora-parallax.pandora-parallax-4 {
+        width: 30%;
+        left: 27%;
+        top: 38%; }
+      .pandora-container section:not(:first-child).pandora-5 .pandora-quote {
+        left: 0;
+        bottom: 3%;
+        top: inherit;
+        right: inherit; }
+      .pandora-container section:not(:first-child).pandora-5 .pandora-background-top {
+        margin-left: auto;
+        margin-right: auto; }
+      .pandora-container section:not(:first-child).pandora-5 .pandora-info {
+        display: none; }
+      .pandora-container section:not(:first-child).pandora-5 .pandora-parallax.pandora-parallax-1 {
+        top: 5%; }
+      .pandora-container section:not(:first-child).pandora-5 .pandora-parallax.pandora-parallax-2 {
+        right: -5%; }
+      .pandora-container section:not(:first-child).pandora-5 .pandora-parallax.pandora-parallax-3 {
+        right: 0;
+        left: inherit;
+        width: 30%;
+        top: 22%; }
+      .pandora-container section:not(:first-child).pandora-9 {
+        margin-top: 10%; }
+        .pandora-container section:not(:first-child).pandora-9 video {
+          height: 650px; }
+        .pandora-container section:not(:first-child).pandora-9 .playpause.full-playpause {
+          display: block;
+          background: url("../features/pandora/video-overlay.jpg?$staticlink$") no-repeat;
+          position: absolute;
+          top: 0;
+          left: 0;
+          height: 650px;
+          width: 100%;
+          background-size: contain;
+          cursor: pointer; }
+      .pandora-container section:not(:first-child).pandora-hidden-edit {
+        overflow: hidden; }
+        .pandora-container section:not(:first-child).pandora-hidden-edit .flexslider {
+          opacity: 1; }
+          .pandora-container section:not(:first-child).pandora-hidden-edit .flexslider ul.slides {
+            margin: 0 auto;
+            text-align: center; }
+            .pandora-container section:not(:first-child).pandora-hidden-edit .flexslider ul.slides li {
+              width: 20%;
+              margin: 3% 2%;
+              display: inline-block; } }
+@keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+/* Internet Explorer */
+@-ms-keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@keyframes slideDown {
+  from {
+    transform: translate(0, -100%);
+    opacity: 0; }
+  to {
+    transform: translate(0, 0);
+    opacity: 1; } }
+/* Firefox < 16 */
+@-moz-keyframes slideDown {
+  from {
+    transform: translate(0, -100%);
+    opacity: 0; }
+  to {
+    transform: translate(0, 0);
+    opacity: 1; } }
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes slideDown {
+  from {
+    transform: translate(0, -100%);
+    opacity: 0; }
+  to {
+    transform: translate(0, 0);
+    opacity: 1; } }
+/* Internet Explorer */
+@-ms-keyframes slideDown {
+  from {
+    transform: translate(0, -100%);
+    opacity: 0; }
+  to {
+    transform: translate(0, 0);
+    opacity: 1; } }
+/* Opera < 12.1 */
+@-o-keyframes slideDown {
+  from {
+    transform: translate(0, -100%);
+    opacity: 0; }
+  to {
+    transform: translate(0, 0);
+    opacity: 1; } }
+
+/*# sourceMappingURL=pandora.css.map */
